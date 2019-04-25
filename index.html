@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Elliot Wesoff - CV/Resume</title>
+        <meta charset="utf-8" />
+        <style>
+            body div {
+                margin: 0 0 2em 0;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <h2>Elliot Wesoff</h2>
+            <b>Phone: </b><span id="phone"><u>Click to show phone number</u></span><br />
+            <b>Email: </b><span id="email"><u>Click to show email address</u></span><br />
+            <a href="https://www.github.com/elliotwesoff" target="_blank">https://www.github.com/elliotwesoff</a>
+        </div>
+
+        <div>
+            <p><b>KEY SKILLS</b></p>
+            <ul>
+                <li>Ruby, Python 2 & 3, TypeScript, JavaScript, SQL, Bash, HTML5, CSS3</li>
+                <li>Ruby on Rails, PostgreSQL, MongoDB, AWS, Angular 4+, Ansible, Docker, Google Apps Script</li>
+                <li>Extensive experience in back-end web development</li>
+                <li>Experienced working in agile software development environments</li>
+                <li>Experience with various database environments - PostgreSQL, MySQL, MongoDB</li>
+                <li>Highly experienced with test driven and behavior driven development</li>
+                <li>Very strong scripting skills in Linux and Windows environments</li>
+                <li>Experienced in handling and manipulating large amounts of data</li>
+                <li>Thorough knowledge of version management via Git</li>
+            </ul>
+        </div>
+
+        <div>
+            <p><b>PROFESSIONAL EXPERIENCE</b></p>
+            <div>
+                <b>January 2018 - March 2019</b><br />
+                <b>Company:</b> ProSiebenSat1. Media SE [Unterföhring, Germany]<br />
+                <b>Position:</b> Data Engineer<br />
+                <ul>
+                    <li>Maintained and developed an API built with Python 3, Flask, Swagger, and SQLAlchemy</li>
+                    <li>Maintained and developed an ETL built with Python 2 and Spotify's Luigi</li>
+                    <li>Maintained the application's many services and environments using Ansible and Docker</li>
+                    <li>Wrote and maintained scripts to create and execute builds via Jenkins</li>
+                    <li>Designed and engineered algorithms to manipulate large amounts of data in accordance with predefined specifications</li>
+                </ul>
+            </div>
+
+            <div>
+                <b>December 2016 - December 2017</b><br />
+                <b>Company:</b> Salt and Pepper GmbH [Munich, Germany]<br />
+                <b>Position:</b> Software Engineer
+                <ul>
+                    <li>Implemented a fully responsive web app using modern front-end web technologies</li>
+                    <li>Maintained and extended the web-project's unit-test suite</li>
+                    <li>Contributed to test automation for a C++ application using Squish and Python</li>
+                </ul>
+            </div>
+
+            <div>
+                <b>October 2013 - November 2016</b><br />
+                <b>Company:</b>Tech Rockstars [Monrovia CA, USA]<br />
+                <b>Position:</b>Software Engineer
+                <ul>
+                    <li>Maintained seven Ruby on Rails repositories simultaneously</li>
+                    <li>Managed all aspects of client websites including publishing and updating content</li>
+                    <li>Built a client-specific mobile application using Google's Apps Script platform, designed for managing job site forms and payroll calculation</li>
+                    <li>Built an automated Amazon Web Services application utilizing DynamoDB, S3, and ensured security with Amazon Identity and Access Management</li>
+                </ul>
+            </div>
+
+            <div>
+                <b>November 2009 - December 2014</b><br />
+                <b>Company:</b>Geek Squad [Henderson NV, USA / Pasadena CA, USA]<br />
+                <b>Position:</b>Consultation/Operations/Customer Service Agent</p>
+                <ul>
+                    <li>Developed strong communication skills</li>
+                    <li>Experienced in processing orders, forms, customer inquiries</li>
+                    <li>Maintained up to date paper and digital files and administrative systems</li>
+                    <li>Experienced in shipping and receiving of customer assets</li>
+                    <li>Skilled in responding to customer needs in person, over the phone, and by email</li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <p><b>EDUCATION</b></p>
+            <b>September 2013 - June 2015</b><br />
+            Citrus College<br />
+            Associates of Arts - Music Performance<br />
+            <br />
+            <b>September 2013 - June 2015</b><br />
+            Citrus College<br />
+            Associates of Arts - Music Performance
+            <p>References available upon request</p>
+        </div>
+
+        <script type="text/javascript">
+            (function() {
+                var phone = ["+1", "626", "272", "7059"].join("-") // man am i paranoid or what?
+                var email = ["elliot", ".", "wesoff", "@", "gmail", ".com"].join("");
+                var phoneElement = document.getElementById("phone");
+                var emailElement = document.getElementById("email");
+                phoneElement.addEventListener('click', function() { this.innerText = phone });
+                emailElement.addEventListener('click', function() { this.innerText = email });
+            })()
+        </script>
+    </body>
+</html>
