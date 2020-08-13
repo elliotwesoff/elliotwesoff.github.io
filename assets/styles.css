@@ -1,3 +1,23 @@
-body div {
-    margin: 0 0 2em 0;
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("/assets/fonts/IBMPlexMono-Regular.ttf") format("truetype");
+}
+@media screen {
+  body {
+    font-family: "IBM Plex Mono" !important;
+    font-size: 0.9rem !important;
+  }
+}
+img {
+  height: 6rem;
+}
+span#phone:hover, span#email:hover {
+  cursor: pointer;
+}
+div#content > div {
+  margin: 4em;
+}
+div#experience > div,
+div#education > div {
+  margin: 2em;
 }
