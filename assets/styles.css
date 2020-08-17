@@ -7,17 +7,27 @@
     font-family: "IBM Plex Mono" !important;
     font-size: 0.9rem !important;
   }
+  div#content > div {
+    margin: 4em;
+  }
+}
+@media print {
+  div#content > div {
+    margin: 2em;
+  }
 }
 img {
   height: 6rem;
 }
-span#phone:hover, span#email:hover {
-  cursor: pointer;
-}
-div#content > div {
-  margin: 4em;
-}
 div#experience > div,
 div#education > div {
   margin: 2em;
+}
+span#phone:hover,
+span#email:hover {
+  cursor: pointer;
+}
+span#phone.clicked:hover,
+span#email.clicked:hover {
+  cursor: default;
 }
