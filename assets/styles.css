@@ -7,27 +7,86 @@
     font-family: "IBM Plex Mono" !important;
     font-size: 0.9rem !important;
   }
+  img {
+    height: 6rem;
+  }
   div#content > div {
     margin: 4em;
   }
-}
-@media print {
-  div#content > div {
-    margin: 2em;
+  div#printer-footer {
+    display: none;
+  }
+  div.showoff {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  div.showoff > span {
+    flex: 1;
+  }
+  span#phone:hover,
+  span#email:hover {
+    cursor: pointer;
+  }
+  span#phone.clicked:hover,
+  span#email.clicked:hover {
+    cursor: default;
+  }
+  div#experience > div p {
+    margin: 0
   }
 }
-img {
-  height: 6rem;
+@media print {
+  img {
+    display: none;
+  }
+  div#content > div {
+    margin: 2em 2em;
+  }
+  div#content > div h3 {
+    margin: 0
+  }
+  div#languages,
+  div#frameworks {
+    text-align: left !important;
+  }
+  div#languages div,
+  div#frameworks div {
+    justify-content: flex-start !important;
+  }
+  div#languages h3,
+  div#frameworks h3 {
+    font-size: 1.25rem;
+    text-transform: uppercase !important;
+  }
+  div#languages div span,
+  div#frameworks div span {
+    margin-top: 1em;
+  }
+  div#languages div span p,
+  div#frameworks div span p {
+    margin: 0;
+  }
+  div#disclaimer {
+    display: none;
+  }
+  div#printer-footer {
+    display: block;
+  }
+  div.showoff {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  div.showoff > span {
+    flex: 1;
+  }
 }
-div#experience > div,
-div#education > div {
-  margin: 2em;
+div#disclaimer,
+div#printer-footer {
+  text-align: center;
+  margin-top: 3rem;
 }
-span#phone:hover,
-span#email:hover {
-  cursor: pointer;
-}
-span#phone.clicked:hover,
-span#email.clicked:hover {
-  cursor: default;
+div#experience > div p {
+  margin: 0
 }
