@@ -32,9 +32,6 @@
   span#email.clicked:hover {
     cursor: default;
   }
-  div#experience > div p {
-    margin: 0
-  }
 }
 @media print {
   img {
