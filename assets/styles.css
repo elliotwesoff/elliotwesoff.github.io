@@ -23,6 +23,7 @@
   div.showoff {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
   }
   div.showoff > span {
