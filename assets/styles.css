@@ -80,6 +80,9 @@
   div.showoff > span {
     flex: 1;
   }
+  div.printer-none {
+    display: none;
+  }
 }
 div#disclaimer,
 div#printer-footer {
