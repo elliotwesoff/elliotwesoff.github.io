@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-  var phone = () => [["+1", "(626)", "272"].join(" "), "7059"].join("-"); // man am i paranoid or what?
-  var email = () => ["elliot", ".", "wesoff", "@", "gmail", ".com"].join("");
+  var phone = () => [["+1", "(626)", "650"].join(" "), "8059"].join("-");
+  var email = () => ["dev", "@", "ell10t", ".io"].join("");
   var phoneElement = document.getElementById("phone");
   var emailElement = document.getElementById("email");
   phoneElement.addEventListener('click', function () {

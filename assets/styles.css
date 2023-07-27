@@ -4,7 +4,7 @@
 }
 @media screen {
   body {
-    font-family: "IBM Plex Mono" !important;
+    font-family: 'Noto Sans', sans-serif !important;
     font-size: 0.9rem !important;
   }
   img {
@@ -15,7 +15,13 @@
     margin: 1em 0;
   }
   div#content > div {
-    margin: 4em;
+    margin: 2em;
+  }
+  div#education > div {
+    margin: 1em 0;
+  }
+  div#education > div div.timespan {
+    font-weight: 600;
   }
   div#printer-footer {
     display: none;
@@ -36,6 +42,13 @@
   span#phone.clicked:hover,
   span#email.clicked:hover {
     cursor: default;
+  }
+  div#education h6 {
+    /* text-decoration: underline; */
+  }
+  div#education b {
+    font-size: 0.9em;
+    text-decoration: none;
   }
 }
 @media print {
