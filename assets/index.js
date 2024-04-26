@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-  var phone = () => [["+1", "626", "650"].join(" "), "8059"].join(" ");
-  var email = () => ["me", "@", "ell10t", ".io"].join("");
+  var phone = () => [["+1", "(626)", "650"].join(" "), "8059"].join(" ");
+  var email = () => ["wesoffe", "@", "unlv.nevada", ".edu"].join("");
   var phoneElement = document.getElementById("phone");
   var emailElement = document.getElementById("email");
   phoneElement.addEventListener('click', function () {
